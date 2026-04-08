@@ -25,7 +25,7 @@ resource "google_storage_bucket" "tf_state" {
     enabled = true
   }
 }
-resource "google_storage_bucket" "tf_state" {
+resource "google_storage_bucket" "itachi_bucket2" {
   name          = "itachi_bucket2"
   location      = "US"
   force_destroy = false
