@@ -17,7 +17,7 @@ resource "google_compute_instance" "vm" {
 }
 
 resource "google_storage_bucket" "tf_state" {
-  name          = "Itachi"
+  name          = "itachi_bucket"
   location      = "US"
   force_destroy = false
   uniform_bucket_level_access = true 
