@@ -25,3 +25,7 @@ resource "google_storage_bucket" "tf_state" {
     enabled = true
   }
 }
+
+output "test_var" {
+  value = var.TEST_VAR
+}
