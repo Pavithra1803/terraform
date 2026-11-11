@@ -15,7 +15,6 @@ resource "google_compute_instance" "vm" {
     access_config {}
   }
 }
-
 resource "google_storage_bucket" "tf_state" {
   name          = "itachi_bucket"
   location      = "US"
